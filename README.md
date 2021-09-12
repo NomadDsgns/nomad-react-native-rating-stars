@@ -22,5 +22,5 @@ React Native component for displaying a 0-5 stars rating based on number provide
 //Display an average stars from an array of ratings:
 const ratings = [0, 3, 2, 5];
 const total = ratings.reduce((previous, current) => previous + current);
-<NomadRatingStars stars={Math.round(total / ratings.length)} size={20} />
+<NomadRatingStars stars={Math.round(total / ratings.length)} />
 ```
