@@ -29,8 +29,6 @@ export default function({ stars, size, style }) {
     );
 }
 
-export default RatingSarsView;
-
 const styles = StyleSheet.create({
       textStyle: {
         color: "white",
@@ -39,6 +37,7 @@ const styles = StyleSheet.create({
       },
       star: {
         paddingLeft: 2,
-        paddingRight: 2
-      },
+        paddingRight: 2,
+        color: "#ffd000"
+      }
 });
